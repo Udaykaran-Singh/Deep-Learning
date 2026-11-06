@@ -1,23 +1,25 @@
 # Deep Learning
 
-A structured collection of my **Deep Learning learning journey**, covering fundamental neural network architectures, optimization techniques, computer vision, and sequence models. This repository contains Jupyter notebooks, implementations, experiments, and datasets.
+A structured collection of **Deep Learning concepts, practical implementations, and Jupyter notebooks**, covering the fundamentals of neural networks, optimization techniques, computer vision, and sequence models.
 
-The goal is to understand Deep Learning concepts through hands-on implementation using Python, TensorFlow, and Keras.
+This repository contains my learning journey through Deep Learning, with hands-on implementations, experiments, datasets, and practical examples using Python, TensorFlow, and Keras.
 
-## 📚 Topics Covered
+## Topics Covered
 
-| # | Topic | Description |
+| No. | Topic | Concepts |
 |---|---|---|
-| 01 | Perceptron | Perceptron fundamentals, sigmoid activation, and implementation |
-| 02 | ANN & MLP | Artificial Neural Networks, backpropagation, regression, and classification |
-| 03 | Improving NN Performance | Overfitting, dropout, regularization, batch normalization, weight initialization, and optimizers |
-| 04 | Hyperparameter Tuning | Optimizing neural network hyperparameters |
-| 05 | CNN | Convolutional Neural Networks, padding, strides, LeNet, and feature visualization |
-| 06 | Image Augmentation | Image preprocessing and data augmentation techniques |
-| 07 | Non-Linear Neural Networks | Building and experimenting with non-linear neural networks |
-| 08 | RNN | Recurrent Neural Networks, word embeddings, LSTM, and GRU |
+| 01 | Perceptron | Perceptron Fundamentals, Sigmoid Activation Function, Perceptron Implementation |
+| 02 | Artificial Neural Networks (ANN) and MLP | Artificial Neural Networks, Multi-Layer Perceptrons (MLP), Forward Propagation, Backpropagation, Regression, Classification |
+| 03 | Improving Neural Network Performance | Handling Overfitting, Dropout, Regularization, Batch Normalization, Weight Initialization, Vanishing Gradient Problem, Optimization Algorithms |
+| 04 | Hyperparameter Tuning | Neural Network Hyperparameter Optimization and Model Performance Improvement |
+| 05 | Convolutional Neural Networks (CNN) | CNN Fundamentals, Convolution, Padding, Strides, LeNet Architecture, Feature Visualization |
+| 06 | Image Augmentation | Image Preprocessing, Image Augmentation Techniques, Data Augmentation |
+| 07 | Non-Linear Neural Networks | Non-Linear Neural Networks, Activation Functions, Network Architecture and Implementation |
+| 08 | Recurrent Neural Networks (RNN) | RNN Fundamentals, Word Embeddings, Long Short-Term Memory (LSTM), Gated Recurrent Units (GRU) |
 
-## 📂 Repository Structure
+## Repository Structure
+
+The repository is organized topic-wise, following the structure of the local folders and notebooks.
 
 ```text
 Deep-Learning/
@@ -51,59 +53,82 @@ Deep-Learning/
     └── 3_GRU/
 ```
 
-## 🛠️ Tech Stack
+*Note: The directory names and numbering above follow the current local repository structure.*
 
-- **Language:** Python
-- **Libraries:** NumPy, Pandas, Matplotlib
+## Tech Stack
+
+- **Programming Language:** Python
+- **Development Environment:** Jupyter Notebook
+- **Numerical Computing:** NumPy
+- **Data Manipulation:** Pandas
+- **Data Visualization:** Matplotlib
 - **Deep Learning Frameworks:** TensorFlow, Keras
-- **Environment:** Jupyter Notebook
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Udaykaran-Singh/Deep-Learning.git
 ```
 
-### 2. Navigate to the project
+### 2. Navigate to the Project
 
 ```bash
 cd Deep-Learning
 ```
 
-### 3. Install dependencies
+### 3. Create a Virtual Environment (Optional)
+
+```bash
+python -m venv .venv
+```
+
+Activate it:
+
+**macOS / Linux**
+```bash
+source .venv/bin/activate
+```
+
+**Windows**
+```bash
+.venv\Scripts\activate
+```
+
+### 4. Install Dependencies
 
 ```bash
 pip install numpy pandas matplotlib tensorflow jupyter
 ```
 
-### 4. Launch Jupyter Notebook
+### 5. Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-Navigate through the topic folders and run the notebooks to explore the implementations.
+Open the relevant topic folder and run the notebooks to explore the implementations.
 
-## 🎯 Learning Objectives
+## Learning Resource
 
-- Understand the mathematical foundations of neural networks.
-- Implement forward propagation and backpropagation.
-- Explore activation functions and optimization algorithms.
-- Understand techniques to improve model performance.
-- Learn CNN architectures and image augmentation.
-- Understand sequential models including RNN, LSTM, and GRU.
+The concepts and practical implementations in this repository are based on my self-learning and practice, including the **CampusX Deep Learning course**.
 
-## 👨‍💻 Author
+- [CampusX – YouTube Channel](https://www.youtube.com/@campusx-official)
+
+## Purpose
+
+The goal of this repository is to maintain an organized collection of my Deep Learning notes, practical implementations, experiments, and coding exercises while strengthening my understanding of neural networks, deep learning architectures, optimization techniques, and their real-world applications.
+
+## Author
 
 **Udaykaran Singh**
 
-B.Tech in Data Science | NIT Jalandhar
+B.Tech – Data Science  
+National Institute of Technology, Jalandhar
 
 - GitHub: [Udaykaran-Singh](https://github.com/Udaykaran-Singh)
-- LinkedIn: [Connect with me](https://www.linkedin.com/)
 
 ---
 
-*Learning Deep Learning one concept and implementation at a time.* 🚀
+⭐ If you find this repository useful, feel free to explore the notebooks and learn along!
